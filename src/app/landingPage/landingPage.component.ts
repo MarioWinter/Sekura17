@@ -5,8 +5,13 @@ import { Component } from '@angular/core';
 	selector: "app-landingPage", // ist ein Selektor um es im anderen HTML aufzurufen
 	standalone: true,
 	imports: [], // Wenn andere Componente oder Services benutzt werden sollen
-	template: "<H1>Hallo Welt</H1>", // ist die grundvorlage der Komponent HTML
-	styles: ["h1 {color: red;}"] // Vorlage des Style der Template
+	template: `
+	<section>
+		<H1>SAKURA RAMEN</H1>
+		<H2>BEST RAMEN IN TOWN</H2>
+	</section>
+	`, // ist die grundvorlage der Komponent HTML
+	styleUrls: ["./landingPage.component.scss"] // Vorlage des Style der Template
 })
 
 
