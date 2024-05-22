@@ -1,14 +1,14 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { LandingPageComponent } from './landingPage/landingPage.component';
+import { Component } from "@angular/core";
+import { RouterOutlet } from "@angular/router";
+import { MainContentComponent } from "./main-content/main-content.component";
 
 @Component({
-	selector: 'app-root',
-	standalone: true,
-	imports: [RouterOutlet, LandingPageComponent],
-	templateUrl: './app.component.html',
-	styleUrl: './app.component.scss',
+    selector: "app-root",
+    standalone: true,
+    imports: [RouterOutlet, MainContentComponent],
+    templateUrl: "./app.component.html",
+    styleUrl: "./app.component.scss",
 })
 export class AppComponent {
-	title = 'sakura17';
+    title = "sakura17";
 }
