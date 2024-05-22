@@ -1,0 +1,47 @@
+nav {
+    margin: 3.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    > img {
+        width: 11rem;
+    }
+    > div {
+        display: flex;
+        align-items: center;
+        gap: 3.5rem;
+        font-size: 1.9rem;
+        font-weight: 700;
+        > a {
+            &:hover {
+                color: red;
+            }
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.phone-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.1rem solid white;
+    padding: 1rem 2rem 1rem 2rem;
+    cursor: pointer;
+    gap: 2rem;
+    background-color: rgb(165, 5, 5);
+    color: white !important;
+    border-radius: 1rem;
+    font-weight: 400;
+    transition: filter 125ms ease-in-out;
+    > img {
+        width: 3rem;
+    }
+    &:hover {
+        filter: brightness(1.2);
+    }
+}
