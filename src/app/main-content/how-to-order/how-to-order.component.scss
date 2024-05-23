@@ -1,0 +1,12 @@
+@import "./../../../styles.scss";
+div {
+    padding: 6rem 0rem;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    font-size: 5.5rem;
+    color: $dark-red;
+    padding: 0rem 0rem 14rem 0rem;
+}

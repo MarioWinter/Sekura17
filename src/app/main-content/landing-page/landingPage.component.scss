@@ -1,3 +1,4 @@
+@import "./../../../styles.scss";
 section {
     display: flex;
     justify-content: center;
@@ -16,7 +17,6 @@ section {
         top: 5rem;
     }
     h1 {
-        color: red;
         font-weight: 700;
         font-size: 11rem;
     }
