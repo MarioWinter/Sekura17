@@ -1,3 +1,4 @@
+@import "./../../../styles.scss";
 .our-menu-container {
     padding: 6rem 0rem;
     background-color: rgb(255, 165, 0);
@@ -5,4 +6,47 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    > img {
+        width: 50rem;
+        object-fit: contain;
+    }
+    &:nth-child(3) {
+        flex-direction: row-reverse;
+    }
+}
+
+.mb-xxl {
+    margin-bottom: 15rem;
+}
+
+.mb-left-10 {
+    margin-left: 10rem;
+    margin-bottom: 10rem;
+}
+
+.mb-right-15 {
+    margin-right: 15rem;
+    margin-bottom: 15rem;
+}
+
+.menu-head {
+    font-family: "Economica", sans-serif;
+    font-size: 8rem;
+    margin-bottom: 4rem;
+}
+
+table {
+    font-weight: 600;
+    color: $gray;
+    font-size: 4rem;
+    > tr td:first-child {
+        padding-right: 27rem;
+        padding-bottom: 1rem;
+    }
 }
